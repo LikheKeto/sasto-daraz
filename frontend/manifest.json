@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "SastoDaraz",
+  "version": "0.1.0",
+  "author": "LikheKeto",
+  "description": "Suggests SastoDeal products on Daraz.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.daraz.com.np/products/*"],
+      "js": ["index.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "96": "icons/sastodaraz.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
