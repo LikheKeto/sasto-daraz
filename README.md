@@ -18,4 +18,4 @@ The backend is a GO server that scrapes the [SastoDeal website](sastodeal.com) a
 
 ## Todo
 
-[.] Write tests!
+- [ ] Write tests!
