@@ -4,6 +4,10 @@
 
 Sasto Daraz is a browser extension that helps you find sastodeal alternatives for items on daraz shopping site.
 
+You can download the extension for [microsoft edge](https://microsoftedge.microsoft.com/addons/detail/sastodaraz/iibdhkajglbdaaalmflbkfpdkjgllaek).
+
+> This extension is inspired from [Pasaley](https://github.com/ch0c0l8ra1n/Pasaley) and borrows frontend code.
+
 ## How it works?
 
 Everytime you visit a product page in [Daraz website](https://www.daraz.com.np/), the extension calls the backend API to fetch list of similar products and displays it.
